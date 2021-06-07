@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190E97A22668657300A13CC1 /* keyless_entryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E97A12668657300A13CC1 /* keyless_entryApp.swift */; };
+		190E97A42668657300A13CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E97A32668657300A13CC1 /* ContentView.swift */; };
+		190E97A62668657500A13CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E97A52668657500A13CC1 /* Assets.xcassets */; };
+		190E97A92668657500A13CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E97A82668657500A13CC1 /* Preview Assets.xcassets */; };
+		190E97AB2668657500A13CC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E97AA2668657500A13CC1 /* Persistence.swift */; };
+		190E97AE2668657500A13CC1 /* keyless_entry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 190E97AC2668657500A13CC1 /* keyless_entry.xcdatamodeld */; };
+		190E97B92668657500A13CC1 /* keyless_entryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E97B82668657500A13CC1 /* keyless_entryTests.swift */; };
+		190E97C42668657500A13CC1 /* keyless_entryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E97C32668657500A13CC1 /* keyless_entryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190E97B52668657500A13CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190E97962668657300A13CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190E979D2668657300A13CC1;
+			remoteInfo = keyless_entry;
+		};
+		190E97C02668657500A13CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190E97962668657300A13CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190E979D2668657300A13CC1;
+			remoteInfo = keyless_entry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190E979E2668657300A13CC1 /* keyless_entry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyless_entry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E97A12668657300A13CC1 /* keyless_entryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyless_entryApp.swift; sourceTree = "<group>"; };
+		190E97A32668657300A13CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		190E97A52668657500A13CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190E97A82668657500A13CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		190E97AA2668657500A13CC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		190E97AD2668657500A13CC1 /* keyless_entry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keyless_entry.xcdatamodel; sourceTree = "<group>"; };
+		190E97AF2668657500A13CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190E97B42668657500A13CC1 /* keyless_entryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyless_entryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E97B82668657500A13CC1 /* keyless_entryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyless_entryTests.swift; sourceTree = "<group>"; };
+		190E97BA2668657500A13CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190E97BF2668657500A13CC1 /* keyless_entryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyless_entryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E97C32668657500A13CC1 /* keyless_entryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyless_entryUITests.swift; sourceTree = "<group>"; };
+		190E97C52668657500A13CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190E979B2668657300A13CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97B12668657500A13CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97BC2668657500A13CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190E97952668657300A13CC1 = {
+			isa = PBXGroup;
+			children = (
+				190E97A02668657300A13CC1 /* keyless_entry */,
+				190E97B72668657500A13CC1 /* keyless_entryTests */,
+				190E97C22668657500A13CC1 /* keyless_entryUITests */,
+				190E979F2668657300A13CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190E979F2668657300A13CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190E979E2668657300A13CC1 /* keyless_entry.app */,
+				190E97B42668657500A13CC1 /* keyless_entryTests.xctest */,
+				190E97BF2668657500A13CC1 /* keyless_entryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190E97A02668657300A13CC1 /* keyless_entry */ = {
+			isa = PBXGroup;
+			children = (
+				190E97A12668657300A13CC1 /* keyless_entryApp.swift */,
+				190E97A32668657300A13CC1 /* ContentView.swift */,
+				190E97A52668657500A13CC1 /* Assets.xcassets */,
+				190E97AA2668657500A13CC1 /* Persistence.swift */,
+				190E97AF2668657500A13CC1 /* Info.plist */,
+				190E97AC2668657500A13CC1 /* keyless_entry.xcdatamodeld */,
+				190E97A72668657500A13CC1 /* Preview Content */,
+			);
+			path = keyless_entry;
+			sourceTree = "<group>";
+		};
+		190E97A72668657500A13CC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				190E97A82668657500A13CC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		190E97B72668657500A13CC1 /* keyless_entryTests */ = {
+			isa = PBXGroup;
+			children = (
+				190E97B82668657500A13CC1 /* keyless_entryTests.swift */,
+				190E97BA2668657500A13CC1 /* Info.plist */,
+			);
+			path = keyless_entryTests;
+			sourceTree = "<group>";
+		};
+		190E97C22668657500A13CC1 /* keyless_entryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				190E97C32668657500A13CC1 /* keyless_entryUITests.swift */,
+				190E97C52668657500A13CC1 /* Info.plist */,
+			);
+			path = keyless_entryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190E979D2668657300A13CC1 /* keyless_entry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E97C82668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entry" */;
+			buildPhases = (
+				190E979A2668657300A13CC1 /* Sources */,
+				190E979B2668657300A13CC1 /* Frameworks */,
+				190E979C2668657300A13CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyless_entry;
+			productName = keyless_entry;
+			productReference = 190E979E2668657300A13CC1 /* keyless_entry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190E97B32668657500A13CC1 /* keyless_entryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E97CB2668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entryTests" */;
+			buildPhases = (
+				190E97B02668657500A13CC1 /* Sources */,
+				190E97B12668657500A13CC1 /* Frameworks */,
+				190E97B22668657500A13CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190E97B62668657500A13CC1 /* PBXTargetDependency */,
+			);
+			name = keyless_entryTests;
+			productName = keyless_entryTests;
+			productReference = 190E97B42668657500A13CC1 /* keyless_entryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		190E97BE2668657500A13CC1 /* keyless_entryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E97CE2668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entryUITests" */;
+			buildPhases = (
+				190E97BB2668657500A13CC1 /* Sources */,
+				190E97BC2668657500A13CC1 /* Frameworks */,
+				190E97BD2668657500A13CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190E97C12668657500A13CC1 /* PBXTargetDependency */,
+			);
+			name = keyless_entryUITests;
+			productName = keyless_entryUITests;
+			productReference = 190E97BF2668657500A13CC1 /* keyless_entryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190E97962668657300A13CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					190E979D2668657300A13CC1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					190E97B32668657500A13CC1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 190E979D2668657300A13CC1;
+					};
+					190E97BE2668657500A13CC1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 190E979D2668657300A13CC1;
+					};
+				};
+			};
+			buildConfigurationList = 190E97992668657300A13CC1 /* Build configuration list for PBXProject "keyless_entry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190E97952668657300A13CC1;
+			productRefGroup = 190E979F2668657300A13CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190E979D2668657300A13CC1 /* keyless_entry */,
+				190E97B32668657500A13CC1 /* keyless_entryTests */,
+				190E97BE2668657500A13CC1 /* keyless_entryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190E979C2668657300A13CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E97A92668657500A13CC1 /* Preview Assets.xcassets in Resources */,
+				190E97A62668657500A13CC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97B22668657500A13CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97BD2668657500A13CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190E979A2668657300A13CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E97AB2668657500A13CC1 /* Persistence.swift in Sources */,
+				190E97A42668657300A13CC1 /* ContentView.swift in Sources */,
+				190E97A22668657300A13CC1 /* keyless_entryApp.swift in Sources */,
+				190E97AE2668657500A13CC1 /* keyless_entry.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97B02668657500A13CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E97B92668657500A13CC1 /* keyless_entryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190E97BB2668657500A13CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190E97C42668657500A13CC1 /* keyless_entryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190E97B62668657500A13CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190E979D2668657300A13CC1 /* keyless_entry */;
+			targetProxy = 190E97B52668657500A13CC1 /* PBXContainerItemProxy */;
+		};
+		190E97C12668657500A13CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190E979D2668657300A13CC1 /* keyless_entry */;
+			targetProxy = 190E97C02668657500A13CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		190E97C62668657500A13CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		190E97C72668657500A13CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190E97C92668657500A13CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"keyless_entry/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = keyless_entry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190E97CA2668657500A13CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"keyless_entry/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = keyless_entry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		190E97CC2668657500A13CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				INFOPLIST_FILE = keyless_entryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyless_entry.app/keyless_entry";
+			};
+			name = Debug;
+		};
+		190E97CD2668657500A13CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				INFOPLIST_FILE = keyless_entryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyless_entry.app/keyless_entry";
+			};
+			name = Release;
+		};
+		190E97CF2668657500A13CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				INFOPLIST_FILE = keyless_entryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyless_entry;
+			};
+			name = Debug;
+		};
+		190E97D02668657500A13CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZBXY482A;
+				INFOPLIST_FILE = keyless_entryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "king.keyless-entryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyless_entry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190E97992668657300A13CC1 /* Build configuration list for PBXProject "keyless_entry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E97C62668657500A13CC1 /* Debug */,
+				190E97C72668657500A13CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E97C82668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E97C92668657500A13CC1 /* Debug */,
+				190E97CA2668657500A13CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E97CB2668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E97CC2668657500A13CC1 /* Debug */,
+				190E97CD2668657500A13CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190E97CE2668657500A13CC1 /* Build configuration list for PBXNativeTarget "keyless_entryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E97CF2668657500A13CC1 /* Debug */,
+				190E97D02668657500A13CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		190E97AC2668657500A13CC1 /* keyless_entry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				190E97AD2668657500A13CC1 /* keyless_entry.xcdatamodel */,
+			);
+			currentVersion = 190E97AD2668657500A13CC1 /* keyless_entry.xcdatamodel */;
+			path = keyless_entry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 190E97962668657300A13CC1 /* Project object */;
+}
