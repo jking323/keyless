@@ -5,41 +5,41 @@
 		<Option title="pico_sdk"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\pico\;CMake Files\..\..\..\pico\pico-sdk\;CMake Files\..\..\..\pico\pico-sdk\cmake\;CMake Files\..\..\..\pico\pico-sdk\cmake\preload\;CMake Files\..\..\..\pico\pico-sdk\cmake\preload\platforms\;CMake Files\..\..\..\pico\pico-sdk\cmake\preload\platforms\pico\;CMake Files\..\..\..\pico\pico-sdk\cmake\preload\toolchains\;CMake Files\..\..\..\pico\pico-sdk\cmake\Platform\;CMake Files\..\..\..\pico\pico-sdk\tools\;CMake Files\..\..\..\pico\pico-sdk\src\;CMake Files\..\..\..\pico\pico-sdk\src\boards\;CMake Files\..\..\..\pico\pico-sdk\src\common\;CMake Files\..\..\..\pico\pico-sdk\src\common\boot_picoboot\;CMake Files\..\..\..\pico\pico-sdk\src\common\boot_uf2\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_base\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_base\include\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_base\include\pico\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_bit_ops\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_binary_info\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_divider\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_sync\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_time\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_util\;CMake Files\..\..\..\pico\pico-sdk\src\common\pico_stdlib\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_base\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_claim\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_adc\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_clocks\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_dma\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_divider\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_flash\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_gpio\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_i2c\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_interp\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_irq\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pio\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pll\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pwm\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_resets\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_rtc\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_spi\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_sync\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_timer\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_uart\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_vreg\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_watchdog\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_xosc\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bootrom\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_platform\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\boot_stage2\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_multicore\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_unique_id\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bit_ops\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_divider\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_double\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_int64_ops\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_float\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_mem_ops\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_malloc\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_printf\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_semihosting\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_uart\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\tinyusb\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_usb\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdlib\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_cxx_options\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_standard_link\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_fix\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\;CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_runtime\;CMake Files\..\..\..\pico\pico-sdk\src\rp2040\;CMake Files\..\..\..\pico\pico-sdk\src\rp2040\hardware_regs\;CMake Files\..\..\..\pico\pico-sdk\src\rp2040\hardware_structs\;CMake Files\..\..\..\pico\pico-sdk\docs\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\elf2uf2\;CMake Files\cmake-build-debug\elf2uf2\tmp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Documents\;CMake Files\..\..\..\..\Documents\pico\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\platforms\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\platforms\pico\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\toolchains\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\Platform\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\tools\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\boards\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\boot_picoboot\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\boot_uf2\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_base\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_base\include\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_base\include\pico\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_bit_ops\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_binary_info\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_divider\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_sync\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_time\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_util\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_stdlib\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_base\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_claim\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_adc\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_clocks\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_dma\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_divider\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_flash\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_gpio\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_i2c\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_interp\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_irq\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pio\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pll\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pwm\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_resets\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_rtc\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_spi\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_sync\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_timer\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_uart\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_vreg\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_watchdog\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_xosc\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bootrom\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_platform\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\boot_stage2\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_multicore\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_unique_id\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bit_ops\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_divider\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_double\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_int64_ops\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_float\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_mem_ops\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_malloc\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_printf\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_semihosting\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_uart\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\tinyusb\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_usb\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdlib\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_cxx_options\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_standard_link\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_fix\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_runtime\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\hardware_regs\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\hardware_structs\;CMake Files\..\..\..\..\Documents\pico\pico-sdk\docs\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\elf2uf2\;CMake Files\cmake-build-debug\elf2uf2\tmp\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bs2_default_bin">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default_bin"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default_bin"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bs2_default_padded_checksummed_asm">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default_padded_checksummed_asm"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default_padded_checksummed_asm"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bs2_default">
-				<Option output="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
+				<Option output="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,7 +52,7 @@
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_base/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include"/>
-					<Add directory="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/generated/pico_base"/>
+					<Add directory="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/generated/pico_base"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/boards/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/boot_stage2/include"/>
@@ -64,15 +64,15 @@
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bs2_default/fast">
-				<Option output="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
+				<Option output="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,7 +85,7 @@
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_base/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include"/>
-					<Add directory="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/generated/pico_base"/>
+					<Add directory="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/generated/pico_base"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/boards/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/boot_stage2/include"/>
@@ -97,272 +97,272 @@
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default/fast"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 bs2_default/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
 		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S">
 			<Option target="bs2_default"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/CMakeLists.txt">
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/pico_sdk_import.cmake">
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/pico_sdk_import.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/pico_sdk_init.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/pico_sdk_init.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/pico_sdk_version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/pico_sdk_version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/pico_pre_load_platform.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/pico_pre_load_platform.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/pico_pre_load_toolchain.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/pico_pre_load_toolchain.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/pico_utils.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/pico_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/preload/platforms/rp2040.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\preload\platforms\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\platforms\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/preload/platforms/pico/pico.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\preload\platforms\pico\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/preload/platforms/pico/pico.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\platforms\pico\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/preload/toolchains/find_compiler.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\preload\toolchains\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/preload/toolchains/find_compiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\toolchains\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\preload\toolchains\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\preload\toolchains\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/cmake/Platform/PICO.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\cmake\Platform\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/cmake/Platform/PICO.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\cmake\Platform\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/tools/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\tools\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\tools\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/tools/FindELF2UF2.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\tools\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/tools/FindELF2UF2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\tools\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/board_setup.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/board_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2040.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2040.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/boards/generic_board.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\boards\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/boards/generic_board.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\boards\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/boot_picoboot/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\boot_picoboot\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/boot_picoboot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\boot_picoboot\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\boot_uf2\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\boot_uf2\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_base/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_base\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_base\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_base/include/pico/version.h.in">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_base\include\pico\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_base/include/pico/version.h.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_base\include\pico\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_bit_ops/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_bit_ops\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_bit_ops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_bit_ops\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_binary_info/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_binary_info\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_binary_info/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_binary_info\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_divider/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_divider\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_divider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_divider\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_sync/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_sync\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_sync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_sync\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_time/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_time\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_time\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_util/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_util\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_util\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/common/pico_stdlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\common\pico_stdlib\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/common/pico_stdlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\common\pico_stdlib\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_base/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_base\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_base\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_claim/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_claim\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_claim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_claim\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_adc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_adc\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_adc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_adc\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_clocks/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_clocks\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_clocks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_clocks\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_dma/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_dma\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_dma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_dma\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_divider/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_divider\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_divider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_divider\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_flash/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_flash\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_flash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_flash\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_gpio/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_gpio\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_gpio\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_i2c/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_i2c\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_i2c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_i2c\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_interp/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_interp\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_interp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_interp\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_irq/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_irq\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_irq/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_irq\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_pio/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pio\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_pio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pio\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_pll/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pll\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_pll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pll\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_pwm/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_pwm\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_pwm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_pwm\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_resets/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_resets\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_resets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_resets\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_rtc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_rtc\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_rtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_rtc\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_spi/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_spi\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_spi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_spi\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_sync/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_sync\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_sync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_sync\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_timer/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_timer\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_timer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_timer\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_uart/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_uart\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_uart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_uart\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_vreg/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_vreg\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_vreg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_vreg\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_watchdog/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_watchdog\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_watchdog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_watchdog\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/hardware_xosc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\hardware_xosc\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/hardware_xosc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\hardware_xosc\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_bootrom/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bootrom\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_bootrom/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bootrom\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_platform/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_platform\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_platform\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\boot_stage2\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\boot_stage2\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_multicore/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_multicore\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_multicore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_multicore\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_unique_id/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_unique_id\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_unique_id/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_unique_id\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_bit_ops/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_bit_ops\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_bit_ops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_bit_ops\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_divider/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_divider\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_divider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_divider\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_double/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_double\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_double/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_double\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_int64_ops/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_int64_ops\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_int64_ops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_int64_ops\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_float/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_float\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_float/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_float\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_mem_ops/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_mem_ops\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_mem_ops\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_malloc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_malloc\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_malloc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_malloc\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_printf/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_printf\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_printf\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_stdio/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_stdio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_stdio_semihosting/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_semihosting\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_stdio_semihosting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_semihosting\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_stdio_uart/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_uart\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_uart\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\tinyusb\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\tinyusb\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_stdio_usb/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdio_usb\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_stdio_usb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdio_usb\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_stdlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_stdlib\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_stdlib\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_cxx_options/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_cxx_options\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_cxx_options/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_cxx_options\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_standard_link/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_standard_link\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_standard_link/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_standard_link\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_fix/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_fix\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_fix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_fix\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2_common/pico_runtime/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2_common\pico_runtime\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2_common/pico_runtime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2_common\pico_runtime\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2040/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2040\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2040/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2040/hardware_regs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2040\hardware_regs\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2040/hardware_regs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\hardware_regs\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/src/rp2040/hardware_structs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\src\rp2040\hardware_structs\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/src/rp2040/hardware_structs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\src\rp2040\hardware_structs\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/../../../pico/pico-sdk/docs/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\pico\pico-sdk\docs\"/>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/../../../../Documents/pico/pico-sdk/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Documents\pico\pico-sdk\docs\"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in">
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\elf2uf2\tmp\"/>
 		</Unit>
 	</Project>

@@ -30,13 +30,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPython/Support.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPython3.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.19.2/CMakeASMCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeSystem.cmake"
-  "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
-  "../pico_sdk_import.cmake"
   "/Users/jeremy/Documents/pico/pico-sdk/CMakeLists.txt"
   "/Users/jeremy/Documents/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/Users/jeremy/Documents/pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -120,6 +113,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/Users/jeremy/Documents/pico/pico-sdk/tools/CMakeLists.txt"
   "/Users/jeremy/Documents/pico/pico-sdk/tools/FindELF2UF2.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.19.2/CMakeASMCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeSystem.cmake"
+  "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
+  "../pico_sdk_import.cmake"
   )
 
 # The corresponding makefile is:

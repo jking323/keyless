@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/tools/cmake_install.cmake")
-  include("/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/cmake_install.cmake")
-  include("/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/cmake_install.cmake")
+  include("/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

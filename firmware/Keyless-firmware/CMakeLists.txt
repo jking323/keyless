@@ -21,10 +21,10 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Keyless-firmware Keyless-firmware.cpp bluetooth.cpp bluetooth.h)
+add_executable(Keyless-firmware Keyless-firmware.cpp ultra_wide.cpp ultra_wide.h engine_out.cpp engine_out.h input_class.cpp input_class.h engine_in.cpp engine_in.h keyless-firmware.h)
 
 pico_set_program_name(Keyless-firmware "Keyless-firmware")
-pico_set_program_version(Keyless-firmware "0.1")
+pico_set_program_version(Keyless-firmware "0.01a")
 
 pico_enable_stdio_uart(Keyless-firmware 1)
 pico_enable_stdio_usb(Keyless-firmware 0)

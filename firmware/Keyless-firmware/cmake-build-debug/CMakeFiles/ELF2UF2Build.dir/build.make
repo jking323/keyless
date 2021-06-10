@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware
+CMAKE_SOURCE_DIR = /Users/jeremy/git/keyless/firmware/Keyless-firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug
 
 # Utility rule file for ELF2UF2Build.
 
@@ -83,51 +83,51 @@ CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-pa
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/pico/pico-sdk/tools/elf2uf2
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/tmp
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/tmp
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake "-GCodeBlocks - Unix Makefiles" /Users/jeremy/Documents/pico/pico-sdk/tools/elf2uf2
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake "-GCodeBlocks - Unix Makefiles" /Users/jeremy/Documents/pico/pico-sdk/tools/elf2uf2
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2 && $(MAKE)
 
 ELF2UF2Build: CMakeFiles/ELF2UF2Build
 ELF2UF2Build: CMakeFiles/ELF2UF2Build-complete
@@ -152,6 +152,6 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 .PHONY : CMakeFiles/ELF2UF2Build.dir/clean
 
 CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeremy/git/keyless/firmware/Keyless-firmware /Users/jeremy/git/keyless/firmware/Keyless-firmware /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ELF2UF2Build.dir/depend
 
