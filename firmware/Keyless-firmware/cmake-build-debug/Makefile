@@ -464,6 +464,33 @@ Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.c.s
 
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 .PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
@@ -1040,6 +1067,33 @@ Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 .PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
@@ -1416,6 +1470,9 @@ help:
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -1480,6 +1537,9 @@ help:
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"

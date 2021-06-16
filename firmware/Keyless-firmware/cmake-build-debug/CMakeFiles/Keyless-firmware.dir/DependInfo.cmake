@@ -33,6 +33,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
+  "PICO_MULTICORE=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -84,6 +85,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/critical_section.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
@@ -95,6 +98,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/datetime.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/pheap.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
@@ -113,6 +117,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_printf/printf.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
@@ -136,6 +141,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
+  "PICO_MULTICORE=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -187,6 +193,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jeremy/git/keyless/firmware/Keyless-firmware/Keyless-firmware.cpp" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles/Keyless-firmware.dir/Keyless-firmware.cpp.obj"
@@ -211,6 +219,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_FLOAT_PICO=1"
   "PICO_INT64_OPS_PICO=1"
   "PICO_MEM_OPS_PICO=1"
+  "PICO_MULTICORE=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -262,6 +271,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # Targets to which this target links.

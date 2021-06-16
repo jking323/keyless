@@ -21,7 +21,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Keyless-firmware Keyless-firmware.cpp ultra_wide.cpp ultra_wide.h engine_out.cpp engine_out.h input_class.cpp input_class.h engine_in.cpp engine_in.h keyless-firmware.h)
+add_executable(Keyless-firmware Keyless-firmware.cpp ultra_wide.cpp ultra_wide.h keyless-firmware.h)
 
 pico_set_program_name(Keyless-firmware "Keyless-firmware")
 pico_set_program_version(Keyless-firmware "0.01a")
@@ -36,6 +36,10 @@ target_link_libraries(Keyless-firmware pico_stdlib)
 target_link_libraries(Keyless-firmware
         hardware_spi
         hardware_watchdog
+        multicore
+        pico_multicore
+        pico_stdlib
+        hardware_adc
         )
 
 pico_add_extra_outputs(Keyless-firmware)

@@ -1,8 +1,0 @@
-//
-// Created by Jeremy King on 6/9/21.
-//
-
-#ifndef KEYLESS_FIRMWARE_ENGINE_IN_H
-#define KEYLESS_FIRMWARE_ENGINE_IN_H
-
-#endif //KEYLESS_FIRMWARE_ENGINE_IN_H

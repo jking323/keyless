@@ -74,6 +74,7 @@
 					<Add option="-DPICO_CMAKE_BUILD_TYPE=&quot;Debug&quot;"/>
 					<Add option="-DPICO_CXX_ENABLE_EXCEPTIONS=1"/>
 					<Add option="-DPICO_STDIO_UART=1"/>
+					<Add option="-DPICO_MULTICORE=1"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_stdlib/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include"/>
@@ -112,6 +113,8 @@
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include"/>
+					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include"/>
+					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -153,6 +156,7 @@
 					<Add option="-DPICO_CMAKE_BUILD_TYPE=&quot;Debug&quot;"/>
 					<Add option="-DPICO_CXX_ENABLE_EXCEPTIONS=1"/>
 					<Add option="-DPICO_STDIO_UART=1"/>
+					<Add option="-DPICO_MULTICORE=1"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_stdlib/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include"/>
@@ -191,6 +195,8 @@
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"/>
 					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include"/>
+					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include"/>
+					<Add directory="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/include"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -322,6 +328,9 @@
 		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S">
 			<Option target="bs2_default"/>
 		</Unit>
+		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c">
+			<Option target="Keyless-firmware"/>
+		</Unit>
 		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c">
 			<Option target="Keyless-firmware"/>
 		</Unit>
@@ -404,6 +413,9 @@
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S">
+			<Option target="Keyless-firmware"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c">
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/platform.c">
