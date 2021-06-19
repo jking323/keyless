@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

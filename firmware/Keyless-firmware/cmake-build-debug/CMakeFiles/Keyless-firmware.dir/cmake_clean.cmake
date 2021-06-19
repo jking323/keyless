@@ -48,10 +48,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-  "CMakeFiles/Keyless-firmware.dir/engine_in.cpp.obj"
-  "CMakeFiles/Keyless-firmware.dir/engine_out.cpp.obj"
-  "CMakeFiles/Keyless-firmware.dir/input_class.cpp.obj"
-  "CMakeFiles/Keyless-firmware.dir/ultra_wide.cpp.obj"
+  "CMakeFiles/Keyless-firmware.dir/core1.c.obj"
+  "CMakeFiles/Keyless-firmware.dir/user_verify.cpp.obj"
+  "CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj"
   "Keyless-firmware.elf"
   "Keyless-firmware.pdb"
 )

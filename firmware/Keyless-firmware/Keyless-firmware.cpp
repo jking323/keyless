@@ -2,9 +2,11 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "hardware/watchdog.h"
-#include "ultra_wide.h"
 #include "iostream"
 #include "hardware/irq.h"
+extern "C"{
+	#include "core1.h"
+}
 #include "pico/multicore.h"
 
 // SPI Defines
@@ -31,30 +33,12 @@
 #define IN_KILL 9 //Engine Kill
 #define IN_START 10 //engine start button
 
-volatile int start_button;
-volatile int is_running;
-volatile int kill_switch;
-int key_value
+int start_button = IN_START;
+int is_running = IN_RUN;
+int kill_switch = IN_KILL;
 
-void core1_interrupt_handler(){
-	while (multicore_fifo_rvalid()){
-		is_running = gpio_get(IN_RUN);
-		kill_switch = gpio_get(IN_KILL);
-		start_button = gpio_get(IN_START);
-		key_value = ultra_wide_key();
-		sleep_ms(1000);
-	}
-	multicore_fifo_clear_irq();
-}
+//int poll_pin_array[3] = {start_button, is_running, kill_switch};
 
-void core1_entry(){
-	multicore_fifo_clear_irq();
-	irq_set_exclusive_handler(SIO_IRQ_PROC1, core1_interrupt_handler(), true);
-	irq_set_enabled(SIO_IRQ_PROC1, true);
-	while (1){
-		tight_loop_contents();
-	}
-}
 
 bool start_button_enable;
 int engine_start_switch(){
@@ -82,6 +66,7 @@ int start_engine() {
 		while (start_button == 1) {
 			gpio_pull_up(OUT_START);
 			gpio_pull_up(OUT_BENDIX);
+			return 1;
 		}
 	}
 	else {
@@ -112,6 +97,7 @@ bool security_check(){
 	 * else
 	 * return false;
 	 */
+	return false;
 }
 
 void main_car_logic(){
@@ -122,7 +108,7 @@ int main(){
 	stdio_init_all();
 
 	multicore_launch_core1(core1_entry);
-	multicore_fifo_push_blocking(raw);
+	multicore_fifo_push_blocking(poll_pin_array);
 
 	//set GPIO signal directions
 	gpio_set_dir(IN_START, GPIO_IN);

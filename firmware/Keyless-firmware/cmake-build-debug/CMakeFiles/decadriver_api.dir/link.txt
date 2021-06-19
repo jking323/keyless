@@ -1,0 +1,2 @@
+/opt/homebrew/bin/arm-none-eabi-ar qc libdecadriver_api.a CMakeFiles/decadriver_api.dir/Src/decadriver/deca_device_api.c.obj CMakeFiles/decadriver_api.dir/Src/decadriver/deca_regs.c.obj CMakeFiles/decadriver_api.dir/Src/decadriver/deca_types.c.obj CMakeFiles/decadriver_api.dir/Src/decadriver/deca_version.c.obj
+/opt/homebrew/bin/arm-none-eabi-ranlib libdecadriver_api.a

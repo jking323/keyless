@@ -2,12 +2,14 @@
 
 cmake_minimum_required(VERSION 3.13)
 
+
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
 # initalize pico_sdk from installed location
 # (note this can come from environment, CMake cache etc)
 set(PICO_SDK_PATH "/Users/jeremy/Documents/pico/pico-sdk")
+
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
@@ -20,8 +22,14 @@ set(PICO_CXX_ENABLE_EXCEPTIONS 1)
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
+set(SOURCE_FILES
+        Keyless-firmware.cpp
+        user_verify.cpp
+        core1.c
+        uwb_connect.cpp)
+#add_library(uwb_dw1000)
 
-add_executable(Keyless-firmware Keyless-firmware.cpp ultra_wide.cpp ultra_wide.h keyless-firmware.h)
+add_executable(Keyless-firmware ${SOURCE_FILES})
 
 pico_set_program_name(Keyless-firmware "Keyless-firmware")
 pico_set_program_version(Keyless-firmware "0.01a")
@@ -36,7 +44,6 @@ target_link_libraries(Keyless-firmware pico_stdlib)
 target_link_libraries(Keyless-firmware
         hardware_spi
         hardware_watchdog
-        multicore
         pico_multicore
         pico_stdlib
         hardware_adc

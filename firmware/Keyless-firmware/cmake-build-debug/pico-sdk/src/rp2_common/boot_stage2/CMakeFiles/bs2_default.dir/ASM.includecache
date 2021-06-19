@@ -20,7 +20,11 @@ boot_stage2/config.h
 pico/config.h
 /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/pico/config.h
 
+/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+
 generated/pico_base/pico/config_autogen.h
 /Users/jeremy/Documents/pico/pico-sdk/src/boards/include/boards/pico.h
+-
+/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 -
 

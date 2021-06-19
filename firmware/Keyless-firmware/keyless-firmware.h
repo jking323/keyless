@@ -17,6 +17,7 @@
 //GPIO input pins
 #define IN_RUN 31 //Engine Running?
 #define IN_KILL 32 //Engine Kill
+#define IN_START 10
 
 
 #endif //KEYLESS_FIRMWARE_KEYLESS_FIRMWARE_H

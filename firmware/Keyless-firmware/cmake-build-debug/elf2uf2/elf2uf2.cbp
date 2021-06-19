@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\src\;CMake Files\..\..\src\common\;CMake Files\..\..\src\common\boot_uf2\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="elf2uf2">
-				<Option output="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/elf2uf2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
+				<Option output="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/elf2uf2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 elf2uf2"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 elf2uf2"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="elf2uf2/fast">
-				<Option output="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/elf2uf2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
+				<Option output="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/elf2uf2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,10 +75,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 elf2uf2/fast"/>
-					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 elf2uf2/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

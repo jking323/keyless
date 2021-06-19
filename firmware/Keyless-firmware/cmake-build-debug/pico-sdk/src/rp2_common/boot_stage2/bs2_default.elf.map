@@ -74,5 +74,5 @@ OUTPUT(bs2_default.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
-.debug_str      0x0000000000000000       0xd5
- .debug_str     0x0000000000000000       0xd5 CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+.debug_str      0x0000000000000000       0xc9
+ .debug_str     0x0000000000000000       0xc9 CMakeFiles/bs2_default.dir/compile_time_choice.S.obj

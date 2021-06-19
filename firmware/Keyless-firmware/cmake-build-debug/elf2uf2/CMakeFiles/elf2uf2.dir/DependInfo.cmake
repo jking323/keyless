@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jeremy/Documents/pico/pico-sdk/tools/elf2uf2/main.cpp" "/Users/jeremy/Documents/keyless_entry/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.o"
+  "/Users/jeremy/Documents/pico/pico-sdk/tools/elf2uf2/main.cpp" "/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
