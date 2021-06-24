@@ -1319,32 +1319,59 @@ Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-core1.obj: core1.c.obj
+catch2.obj: catch2.cpp.obj
+
+.PHONY : catch2.obj
+
+# target to build an object file
+catch2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj
+.PHONY : catch2.cpp.obj
+
+catch2.i: catch2.cpp.i
+
+.PHONY : catch2.i
+
+# target to preprocess a source file
+catch2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/catch2.cpp.i
+.PHONY : catch2.cpp.i
+
+catch2.s: catch2.cpp.s
+
+.PHONY : catch2.s
+
+# target to generate assembly for a file
+catch2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/catch2.cpp.s
+.PHONY : catch2.cpp.s
+
+core1.obj: core1.cpp.obj
 
 .PHONY : core1.obj
 
 # target to build an object file
-core1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.c.obj
-.PHONY : core1.c.obj
+core1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.cpp.obj
+.PHONY : core1.cpp.obj
 
-core1.i: core1.c.i
+core1.i: core1.cpp.i
 
 .PHONY : core1.i
 
 # target to preprocess a source file
-core1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.c.i
-.PHONY : core1.c.i
+core1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.cpp.i
+.PHONY : core1.cpp.i
 
-core1.s: core1.c.s
+core1.s: core1.cpp.s
 
 .PHONY : core1.s
 
 # target to generate assembly for a file
-core1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.c.s
-.PHONY : core1.c.s
+core1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/core1.cpp.s
+.PHONY : core1.cpp.s
 
 user_verify.obj: user_verify.cpp.obj
 
@@ -1372,33 +1399,6 @@ user_verify.s: user_verify.cpp.s
 user_verify.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/user_verify.cpp.s
 .PHONY : user_verify.cpp.s
-
-uwb_connect.obj: uwb_connect.cpp.obj
-
-.PHONY : uwb_connect.obj
-
-# target to build an object file
-uwb_connect.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj
-.PHONY : uwb_connect.cpp.obj
-
-uwb_connect.i: uwb_connect.cpp.i
-
-.PHONY : uwb_connect.i
-
-# target to preprocess a source file
-uwb_connect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.i
-.PHONY : uwb_connect.cpp.i
-
-uwb_connect.s: uwb_connect.cpp.s
-
-.PHONY : uwb_connect.s
-
-# target to generate assembly for a file
-uwb_connect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Keyless-firmware.dir/build.make CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.s
-.PHONY : uwb_connect.cpp.s
 
 # Help Target
 help:
@@ -1538,15 +1538,15 @@ help:
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... catch2.obj"
+	@echo "... catch2.i"
+	@echo "... catch2.s"
 	@echo "... core1.obj"
 	@echo "... core1.i"
 	@echo "... core1.s"
 	@echo "... user_verify.obj"
 	@echo "... user_verify.i"
 	@echo "... user_verify.s"
-	@echo "... uwb_connect.obj"
-	@echo "... uwb_connect.i"
-	@echo "... uwb_connect.s"
 .PHONY : help
 
 

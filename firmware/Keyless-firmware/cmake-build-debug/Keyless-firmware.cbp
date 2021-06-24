@@ -491,22 +491,28 @@
 		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/Keyless-firmware.h">
 			<Option target="Keyless-firmware"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.c">
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.cpp">
+			<Option target="Keyless-firmware"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.h">
+			<Option target="Keyless-firmware"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.cpp">
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.h">
+			<Option target="Keyless-firmware"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/input.h">
+			<Option target="Keyless-firmware"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/output.h">
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/user_verify.cpp">
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/user_verify.h">
-			<Option target="Keyless-firmware"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.cpp">
-			<Option target="Keyless-firmware"/>
-		</Unit>
-		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.h">
 			<Option target="Keyless-firmware"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/git/keyless/firmware/Keyless-firmware/CMakeLists.txt">

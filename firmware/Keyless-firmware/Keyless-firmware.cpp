@@ -4,10 +4,12 @@
 #include "hardware/watchdog.h"
 #include "iostream"
 #include "hardware/irq.h"
-extern "C"{
-	#include "core1.h"
-}
+#include "core1.h"
 #include "pico/multicore.h"
+#include "input.h"
+#include "output.h"
+//#define CATCH_CONFIG_MAIN
+#include "catch2.h"
 
 // SPI Defines
 // We are going to use SPI 0, and allocate it to the following GPIO pins
@@ -18,97 +20,106 @@ extern "C"{
 #define PIN_SCK  18
 #define PIN_MOSI 19
 
-//GPIO output pins
-#define OUT_PRIME 0 //Fuel pump prime signal
-#define OUT_FUEL 1 //Fuel pump on signal
-#define OUT_VATS 2 //VATS verify
-#define OUT_POWER 3 //chassis power
-#define OUT_BENDIX 4 //starter bendix exciter
-#define OUT_START 5 //starter motor exciter
-#define OUT_LOCK 6 //door lock relay
-#define OUT_UNLOCK 7 //door unlock relay
 
-//GPIO input pins
-#define IN_RUN 8 //Engine Running?
-#define IN_KILL 9 //Engine Kill
-#define IN_START 10 //engine start button
 
-int start_button = IN_START;
-int is_running = IN_RUN;
-int kill_switch = IN_KILL;
 
 //int poll_pin_array[3] = {start_button, is_running, kill_switch};
-
+int primed;
+int started;
 
 bool start_button_enable;
-int engine_start_switch(){
-	while (is_running != 1) {
-		int kill_switch_enable;
-		if (is_running == 1) {
-			kill_switch_enable = 1;
+bool kill_switch_enable;
+input core1_obj;
+output out_obj;
+int start_engine() { //this function solely handles starting the engine
+	if (core1_obj.get_run_status() == 0){ //add dwb_ky_connected_function once it's complete
+		if (primed == 0){ //if primed is 0 then the fuel pump will prime for 3 seconds and set the flag primed
+			out_obj.set_prime_status(true);
+			sleep_ms(3000);
+			out_obj.set_prime_status(false);
+			primed = 1;
 		}
-		else {
-			kill_switch_enable = 0;
+		do { //if primed is 1 then the engine will begin the start sequence
+			out_obj.set_bendix_status(true);
+			out_obj.set_engine_start_status(true);
+			out_obj.set_fuel_status(true);
+			core1_obj.get_start_status();
 		}
-		if (kill_switch_enable == 0 && is_running == 0) {
-			start_button_enable = true;
+		while (core1_obj.get_start_status() == 1);
+		//as long as the start button is held the engine will turn over, afterwards if will disengage the starter
+		out_obj.set_bendix_status(false);
+		out_obj.set_engine_start_status(false);
+		if (core1_obj.get_run_status() == 1) {
+			//if the is_running pin goes high then the function will return 2 indicating the engine has started
+			started = 1;
+			return 2;
+		}
+	}
+	//if the status returns true then started will be set to 1 indicating the engine is already running and it will return 2
+	else{
+		if (core1_obj.get_run_status() == 0) {
+			started = 1;
+			return 2;
+		}
+		else{
+			//if run_status returns 0 then the engine failed to start and the function will return 1 after setting started to 0
+			started = 0;
 			return 1;
 		}
-		else {
-			start_button_enable = false;
-			return 0;
-		}
 	}
+	return 0;
 }
 
-int start_engine() {
-	if (engine_start_switch() == 1 && start_button==1) {
-		while (start_button == 1) {
-			gpio_pull_up(OUT_START);
-			gpio_pull_up(OUT_BENDIX);
-			return 1;
-		}
+
+bool engine_kill(){
+	if (core1_obj.get_kill_status() == true){
+		out_obj.set_fuel_status(false);
+		out_obj.set_pwr_status(false);
+		primed = 0;
+		return true;
 	}
-	else {
-		return 0;
-	}
+	return false;
 }
 
-void engine_kill(){
-	int kill_engine;
-	if (kill_switch == 1){
-		kill_engine = 1;
-	}
-	else {
-		kill_engine = 0;
-	}
-	if (kill_engine == 1){
-		gpio_put(OUT_FUEL, false);
-		gpio_put(OUT_POWER, false);
-	}
-}
-
+bool key_connected = true;
 bool security_check(){
 	//key hash goes here
-
 	/*
 	 * if received_hash == key hash
 	 * return true;
 	 * else
 	 * return false;
 	 */
-	return false;
+	return true;
 }
 
-void main_car_logic(){
+void main_car_logic() {
+	while (true) {
+		while (true) {
+			if (key_connected) {
+				if (core1_obj.get_start_status()) {
+					start_engine();
+				} else {
+					sleep_ms(500);
+				}
+			} else {
+				sleep_ms(1000);
+			}
+			if (engine_kill() == true) {
+				started = 0;
+				sleep_ms(1000);
+				break;
+			}
+		}
 
+	}
 }
 
-int main(){
+int main() {
 	stdio_init_all();
-
 	multicore_launch_core1(core1_entry);
-	multicore_fifo_push_blocking(poll_pin_array);
+	uint32_t get_pin_array = core1_obj.get_input_array();
+	multicore_fifo_push_blocking(get_pin_array);
 
 	//set GPIO signal directions
 	gpio_set_dir(IN_START, GPIO_IN);
@@ -122,18 +133,15 @@ int main(){
 	gpio_set_dir(OUT_UNLOCK, GPIO_OUT);
 
 	// SPI initialisation. This example will use SPI at 1MHz.
-	spi_init(SPI_PORT, 1000*1000);
+	spi_init(SPI_PORT, 1000 * 1000);
 	gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
-	gpio_set_function(PIN_CS,   GPIO_FUNC_SIO);
-	gpio_set_function(PIN_SCK,  GPIO_FUNC_SPI);
+	gpio_set_function(PIN_CS, GPIO_FUNC_SIO);
+	gpio_set_function(PIN_SCK, GPIO_FUNC_SPI);
 	gpio_set_function(PIN_MOSI, GPIO_FUNC_SPI);
 
 	// Chip select is active-low, so we'll initialise it to a driven-high state
 	gpio_set_dir(PIN_CS, GPIO_OUT);
 	gpio_put(PIN_CS, 1);
 
-
 	main_car_logic();
-
-
 }

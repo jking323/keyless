@@ -918,54 +918,6 @@ CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_com
  /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
-CMakeFiles/Keyless-firmware.dir/core1.c.obj
- /Users/jeremy/Documents/pico/pico-sdk/src/boards/include/boards/pico.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/error.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/types.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h
- /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_time/include/pico/time.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
- /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.c
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.h
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/keyless-firmware.h
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.h
- generated/pico_base/pico/config_autogen.h
- generated/pico_base/pico/version.h
 CMakeFiles/Keyless-firmware.dir/Keyless-firmware.cpp.obj
  /Users/jeremy/Documents/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -1009,15 +961,66 @@ CMakeFiles/Keyless-firmware.dir/Keyless-firmware.cpp.obj
  /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
  /Users/jeremy/git/keyless/firmware/Keyless-firmware/Keyless-firmware.cpp
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.h
  /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/input.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/output.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.cpp
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.h
+CMakeFiles/Keyless-firmware.dir/core1.cpp.obj
+ /Users/jeremy/Documents/pico/pico-sdk/src/boards/include/boards/pico.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_base/include/pico/types.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/common/pico_time/include/pico/time.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.cpp
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/input.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/keyless-firmware.h
+ /Users/jeremy/git/keyless/firmware/Keyless-firmware/output.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/Keyless-firmware.dir/user_verify.cpp.obj
  /Users/jeremy/git/keyless/firmware/Keyless-firmware/user_verify.cpp
  /Users/jeremy/git/keyless/firmware/Keyless-firmware/user_verify.h
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.h
-CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.cpp
- /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.h

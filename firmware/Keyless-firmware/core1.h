@@ -3,9 +3,10 @@
 //
 
 #ifndef KEYLESS_FIRMWARE_CORE1_H
+#include "input.h"
+using namespace std;
 void core1_entry();
-void cor1_inturrupt_handler();
-volatile int poll_pin_array;
+
 
 #define KEYLESS_FIRMWARE_CORE1_H
 

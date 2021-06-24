@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # (note this can come from environment, CMake cache etc)
 set(PICO_SDK_PATH "/Users/jeremy/Documents/pico/pico-sdk")
 
-
+#include(uwb_dw1000/CMakeLists.txt)
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
@@ -25,8 +25,8 @@ pico_sdk_init()
 set(SOURCE_FILES
         Keyless-firmware.cpp
         user_verify.cpp
-        core1.c
-        uwb_connect.cpp)
+        core1.cpp
+        input.h output.h catch2.h catch2.cpp)
 #add_library(uwb_dw1000)
 
 add_executable(Keyless-firmware ${SOURCE_FILES})

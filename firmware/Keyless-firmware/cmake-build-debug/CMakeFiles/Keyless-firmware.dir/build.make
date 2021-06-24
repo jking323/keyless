@@ -102,31 +102,31 @@ CMakeFiles/Keyless-firmware.dir/user_verify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Keyless-firmware.dir/user_verify.cpp.s"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeremy/git/keyless/firmware/Keyless-firmware/user_verify.cpp -o CMakeFiles/Keyless-firmware.dir/user_verify.cpp.s
 
-CMakeFiles/Keyless-firmware.dir/core1.c.obj: CMakeFiles/Keyless-firmware.dir/flags.make
-CMakeFiles/Keyless-firmware.dir/core1.c.obj: ../core1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Keyless-firmware.dir/core1.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Keyless-firmware.dir/core1.c.obj -c /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.c
+CMakeFiles/Keyless-firmware.dir/core1.cpp.obj: CMakeFiles/Keyless-firmware.dir/flags.make
+CMakeFiles/Keyless-firmware.dir/core1.cpp.obj: ../core1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Keyless-firmware.dir/core1.cpp.obj"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Keyless-firmware.dir/core1.cpp.obj -c /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.cpp
 
-CMakeFiles/Keyless-firmware.dir/core1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Keyless-firmware.dir/core1.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.c > CMakeFiles/Keyless-firmware.dir/core1.c.i
+CMakeFiles/Keyless-firmware.dir/core1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Keyless-firmware.dir/core1.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.cpp > CMakeFiles/Keyless-firmware.dir/core1.cpp.i
 
-CMakeFiles/Keyless-firmware.dir/core1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Keyless-firmware.dir/core1.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.c -o CMakeFiles/Keyless-firmware.dir/core1.c.s
+CMakeFiles/Keyless-firmware.dir/core1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Keyless-firmware.dir/core1.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeremy/git/keyless/firmware/Keyless-firmware/core1.cpp -o CMakeFiles/Keyless-firmware.dir/core1.cpp.s
 
-CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj: CMakeFiles/Keyless-firmware.dir/flags.make
-CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj: ../uwb_connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj -c /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.cpp
+CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj: CMakeFiles/Keyless-firmware.dir/flags.make
+CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj: ../catch2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/git/keyless/firmware/Keyless-firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj -c /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.cpp
 
-CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.i"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.cpp > CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.i
+CMakeFiles/Keyless-firmware.dir/catch2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Keyless-firmware.dir/catch2.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.cpp > CMakeFiles/Keyless-firmware.dir/catch2.cpp.i
 
-CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.s"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeremy/git/keyless/firmware/Keyless-firmware/uwb_connect.cpp -o CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.s
+CMakeFiles/Keyless-firmware.dir/catch2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Keyless-firmware.dir/catch2.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeremy/git/keyless/firmware/Keyless-firmware/catch2.cpp -o CMakeFiles/Keyless-firmware.dir/catch2.cpp.s
 
 CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/Keyless-firmware.dir/flags.make
 CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -668,8 +668,8 @@ CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_com
 Keyless__firmware_OBJECTS = \
 "CMakeFiles/Keyless-firmware.dir/Keyless-firmware.cpp.obj" \
 "CMakeFiles/Keyless-firmware.dir/user_verify.cpp.obj" \
-"CMakeFiles/Keyless-firmware.dir/core1.c.obj" \
-"CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj" \
+"CMakeFiles/Keyless-firmware.dir/core1.cpp.obj" \
+"CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj" \
 "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -724,8 +724,8 @@ Keyless__firmware_EXTERNAL_OBJECTS =
 
 Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/Keyless-firmware.cpp.obj
 Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/user_verify.cpp.obj
-Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/core1.c.obj
-Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/uwb_connect.cpp.obj
+Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/core1.cpp.obj
+Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/catch2.cpp.obj
 Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 Keyless-firmware.elf: CMakeFiles/Keyless-firmware.dir/Users/jeremy/Documents/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
