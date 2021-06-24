@@ -1,3 +1,3 @@
 /firmware/Keyless-firmware/.idea/
-/firmware/keyless-firmware/build/*
-/firmware/keyless-firmware/cmake-buid-debug/*
+/firmware/keyless-firmware/build/
+/firmware/keyless-firmware/cmake-buid-debug/
